@@ -1,4 +1,10 @@
 # stress-test-git
+How does git works
+
+
+Git is a free and open source version control system, originally created by Linus Torvalds in 2005. Unlike older centralized version control systems such as SVN and CVS, Git is distributed: every developer has the full history of their code repository locally. This makes the initial clone of the repository slower, but subsequent operations such as commit, blame, diff, merge, and log dramatically faster.
+
+Git also has excellent support for branching, merging, and rewriting repository history, which has lead to many innovative and powerful workflows and tools. Pull requests are one such popular tool that allow teams to collaborate on Git branches and efficiently review each others code. Git is the most widely used version control system in the world today and is considered the modern standard for software development.
 
 # Stress Test Title 1
 
@@ -31,6 +37,7 @@ And a funny gif of course:
 </script>```
 =======
 ## Work flow
+=======
 
 1. Create the repository on Github.
 2. Clone the repository to your local machine.
@@ -45,4 +52,15 @@ And a funny gif of course:
 11. Run ```git co
 12.
 13.
+=======
+11. Run ```git checkout main``` and then ```git merge development```
+12. Run ```git push``` to push your updated main branch
+
+Git also has excellent support for branching, merging, and rewriting repository history, which has lead to many innovative and powerful workflows and tools. Pull requests are one such popular tool that allow teams to collaborate on Git branches and efficiently review each others code. Git is the most widely used version control system in the world today and is considered the modern standard for software development.
+
+
+ * pizza
+ * apple
+ * banana
+
 
