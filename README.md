@@ -12,6 +12,5 @@
 8. When the work on that branch is done, run ``git checkout development`` to move to the development branch.
 9. Run ```git merge feature-branch``` to merge the branch development.
 10. Run ```git push``` to push the updated development branch to your repository
-11. Run ```git co
-12.
-13.
+11. Run ```git checkout main``` and then ```git merge development```
+12. Run ```git push``` to push your updated main branch
